@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# TODO: improve this script, make it dynamic, etc
+
+msgfmt -o app/locale/en_US/LC_MESSAGES/messages.mo app/locale/en_US/LC_MESSAGES/messages.po

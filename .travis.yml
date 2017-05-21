@@ -1,0 +1,17 @@
+language: php
+
+sudo: false
+
+cache:
+    directories:
+        - $HOME/.composer/cache/files
+
+php:
+    - 7.1
+
+branches:
+    except:
+        - /^analysis-.*$/
+
+install: travis_retry composer install --prefer-dist --no-interaction
+script: make test

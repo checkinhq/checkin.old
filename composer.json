@@ -1,8 +1,8 @@
 {
-    "name": "nofw/nofw",
-    "description": "No framework at all!",
-    "keywords": ["nofw", "framework", "fw", "skeleton"],
-    "homepage": "https://nofw.io/",
+    "name": "checkin/checkin",
+    "description": "!",
+    "keywords": ["checkin", "agile", "standup"],
+    "homepage": "https://checkinhq.io/",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nofw\\": "src/"
+            "CheckIn\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nofw\\Tests\\": "tests/"
+            "CheckIn\\Tests\\": "tests/"
         }
     }
 }
